@@ -1,0 +1,6 @@
+module.exports = {
+  layout: "layout.njk",
+  tags: ["blog"],
+  permalink: "blog/{{ page.fileSlug }}/",
+};
+
