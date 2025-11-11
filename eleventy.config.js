@@ -10,6 +10,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("split", function (str, delimiter) {
     return str.split(delimiter);
   });
+  eleventyConfig.addFilter("readableDate", (dateObj, format = "MMMM d, yyyy") => {
+    const date = new Date(dateObj);
+    return date.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+  });
 
   const serviceOrder = [
     "Residential Standard and Standing Seam Metal Roof Replacements",

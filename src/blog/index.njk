@@ -21,7 +21,7 @@ permalink: "/blog/"
                 <p class="govuk-body">{{ post.data.description }}</p>
               {% endif %}
               <p class="govuk-body-s govuk-!-font-size-16 govuk-!-colour-dark-grey">
-                {{ post.date | date("MMMM d, yyyy") }}
+                {{ post.date | readableDate }}
               </p>
             </li>
           {% endfor %}
