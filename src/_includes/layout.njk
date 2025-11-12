@@ -32,7 +32,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/styles.css"/>
     <script src="/scripts/main.js"></script>
-    <link rel="preload" href="/assets/images/logo.png" as="image" fetchpriority="high">
+    <link rel="preload" href="/assets/images/logo-2.png" as="image" fetchpriority="high">
   </head>
 
   <body class="govuk-template__body">
@@ -45,7 +45,8 @@
       {% include "partials/landing-default.njk" %}
     {% endif %}
 
-    <main class="govuk-main-wrapper"  id="main-content">
+    <main class="govuk-main-wrapper {{ main_wrapper_class | default('') }}"  id="main-content">
+      
       <div>
       {{ content | safe }}
       </div>

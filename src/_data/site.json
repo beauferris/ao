@@ -1,8 +1,10 @@
 {
-  "name": "Picturesque Exteriors",
-  "description": "Premium exterior services in Calgary.",
-  "url": "https://www.picturesqueexteriors.ca",
+  "name": "AO Law",
+  "description": "We’re ready to solve your legal problems.",
+  "url": "https://www.aolaw.ca",
   "language": "en",
   "phone": "5877310382",
-  "email": "ali@aolaw.ca"
+  "email": "ali@aolaw.ca",
+  "address": "800 5 Ave SW, Calgary, AB T2P 0N3",
+  "address_url": "https://www.google.com/maps/place/800+5+Ave+SW,+Calgary,+AB+T2P+0N3/@51.0489931,-114.0788373,17z/data=!3m1!4b1!4m6!3m5!1s0x53716fe4534412fd:0xb334daa03e938b57!8m2!3d51.0489931!4d-114.0788373!16s%2Fg%2F11csgxpdfg?entry=ttu"
 }
