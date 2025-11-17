@@ -18,14 +18,14 @@ html, body {
   --link-color-visisted: var(--main-header-color);
 
   --link-color-hover: #003078;
-  --link-color-active: #0b0c0c;
-  --link-color-focus: #0b0c0c;
+  --link-color-active: #ff5e1a;
+  --link-color-focus: #ff5e1a;
   --link-bg-color: var(--hightlight);
 
-  --button-bg: #ff5e1a;
-  --button-shadow: #c7460f;
-  --button-bg-hover: #e45014;
-  --button-border-focus: #ff5e1a;
+  --button-bg: #595f39;
+  --button-shadow: #424728;
+  --button-bg-hover: #4d532f;
+  --button-border-focus: #595f39;
 
   --hightlight: var(--main-header-color);
   --border-main: 1px solid #b1b4b6;
