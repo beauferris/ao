@@ -1,6 +1,13 @@
 backend:
   name: git-gateway
   branch: main
+  name: git-gateway
+  repo: beauferris/ao
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/e5ad124f-cb63-4d21-a524-86b0310897fa/pkce
+  auth_token_endpoint: /sites/e5ad124f-cb63-4d21-a524-86b0310897fa/token
+  gateway_url: https://gateway.decapbridge.com
 
 local_backend: true
 
