@@ -1,5 +1,5 @@
 ---
-title: Welcome to AoLaw Insights
+title: Welcome to AoLaw Insightz
 description: News, legal updates, and resources from the AoLaw team.
 date: 2025-11-11
 ---
